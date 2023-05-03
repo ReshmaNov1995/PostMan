@@ -10,10 +10,10 @@ GET, POST, UPDATE, DELETE - diff url. These url are given by developers.
 
 GET->pass the url->click on send
 
-a) POST->pass the url->Navigate to "body"->choose "raw" radio button->copy the payload from F12.
+a) POST->pass the url->Navigate to "body"->choose "raw" radio button->copy the payload.
 Which means, Click on F12->Network->Clear All.
 Then Click on Login button->Click on the First Name in Network->Take "url","Method",Ensure the status code.
-Navigate to Payload and Click on copy value.
+Navigate to Payload and Click on copy value(Right click on first line->Copy Value).
 b) Change to JSON
 c) Send
 
@@ -26,5 +26,28 @@ Advantages of API Testing:
   Language Independant, Since data exchange using JSON, xml, html, Text.
   
  1) Add
+ POST->pass the url->Navigate to "body"->choose "raw" radio button->copy the payload.
+Which means, Click on F12->Network->Clear All.
+Then Click on Add popup's save button after entering the required data->Click on the First Name in Network->Take "url","Method",Ensure the status code.
+Navigate to Payload and Click on copy value(Right click on first line->Copy Value).
+b) Change to JSON
+c) Send
+ 
  2) Edit
+ POST->pass the url->Navigate to "body"->choose "raw" radio button->copy the payload.
+Which means, Click on F12->Network->Clear All.
+Then Click on Edit popup's save button after updating the required data->Click on the First Name in Network->Take "url","Method",Ensure the status code.
+Navigate to Payload and Click on copy value(Right click on first line->Copy Value).
+b) Change the code, name & description
+c) Change to JSON
+d) Send
+ 
  3) Delete
+ POST->pass the url->Navigate to "body"->choose "raw" radio button->copy the payload.
+Which means, Click on F12->Network->Clear All.
+Then Click on Delete popup's ok button->Click on the First Name in Network->Take "url","Method",Ensure the status code.
+Navigate to Payload and Click on copy value(Right click on first line->Copy Value).
+b) Change the code, name & description to be deleted
+c) Change to JSON
+d) Send
+ 
