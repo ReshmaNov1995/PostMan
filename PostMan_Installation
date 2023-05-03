@@ -2,3 +2,29 @@ Link: https://www.postman.com/downloads/
 
 Double click to launch the Application.
 Create Account->Then Sign in 
+
+Create Team Project-Click + button to Create API Request.
+
+url step is required to all.
+GET, POST, UPDATE, DELETE - diff url. These url are given by developers.
+
+GET->pass the url->click on send
+
+a) POST->pass the url->Navigate to "body"->choose "raw" radio button->copy the payload from F12.
+Which means, Click on F12->Network->Clear All.
+Then Click on Login button->Click on the First Name in Network->Take "url","Method",Ensure the status code.
+Navigate to Payload and Click on copy value.
+b) Change to JSON
+c) Send
+
+NOTE: Apart from GET method, All the methods will have Payload.
+
+Advantages of API Testing:
+  User Interactive is not required.
+  Code & Core Level can be validated before validating GUI.
+  Speed & Accurate 
+  Language Independant, Since data exchange using JSON, xml, html, Text.
+  
+ 1) Add
+ 2) Edit
+ 3) Delete
