@@ -1,0 +1,10 @@
+C - Create (POST)
+R - Read (GET)
+U - Update (PUT)
+D - Delete (DELETE)
+
+What are the protocols in API?
+  HTTP, FTP, REST, SOAP, UDDI, JMS
+  
+What are the methods of HTTP?
+  GET, POST, PUT, DELETE
