@@ -3,7 +3,9 @@ Link: https://www.postman.com/downloads/
 Double click to launch the Application.
 Create Account->Then Sign in 
 
-Create Team Project-Click + button to Create API Request. ?
+Create Team workspace->Workspace->Create workspace->Choose Team
+Create Collection. 'n' no.of. collection can be created in a single workspace. 
+Click + button to Create API Request. 
 
 url step is required to all.
 GET, POST, UPDATE, DELETE - diff url. These url are given by developers.
@@ -48,7 +50,7 @@ d) Send
 1) Which means, Click on F12->Network->Clear All.
 2) Then Click on Delete popup's ok button->Click on the First Name in Network->Take "url","Method",Ensure the status code.
 3) Navigate to Payload and Click on copy value(Right click on first line->Copy Value).
-b) Change the code, name & description to be deleted
+b) Change the code, name & description, nunitcode to be deleted. 
 c) Change to JSON
-d) Send - Already Deleted  ?
+d) Send 
  
