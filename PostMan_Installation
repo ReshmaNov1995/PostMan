@@ -53,4 +53,8 @@ d) Send
 b) Change the name, description, code(nunitcode) to be deleted. 
 c) Change to JSON
 d) Send 
- 
+
+Payload - Payload is the content which we have passed in body.
+A payload in API is the actual data pack that is sent with the GET method in HTTP. 
+It is the crucial information that you submit to the server when you are making an API request. 
+The payload can be sent or received in various formats, including JSON.
