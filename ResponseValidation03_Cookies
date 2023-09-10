@@ -1,0 +1,23 @@
+Paste this under "Tests"
+Validate under "Test Results"
+Goto Cookies Tab and take Cookie Name
+
+Cookie name Verification:
+pm.test("test name",function()
+    {
+ 
+      pm.expect(pm.cookies.has("_pinterest_sess")).to.be.true;
+ 
+    }
+
+)
+
+Cookie value Verification:
+pm.test("test name",function()
+    {
+ 
+      pm.expect(pm.cookies.get("_routing_id")).to.eql.('%221f1c22f5-2ac9-4656-b7a9-a9029b34b69a%22');
+ 
+    }
+
+)
