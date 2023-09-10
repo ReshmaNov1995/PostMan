@@ -1,5 +1,6 @@
 Paste this under "Tests"
 Validate under "Test Results"
+Status is in right down.
 
 Status code verification:
 pm.test("test name",function()
