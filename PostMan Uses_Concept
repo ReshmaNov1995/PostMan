@@ -17,3 +17,17 @@ PostMan API Components:
     Environment - 
     Collection - It is a folder used to store the Testcase.
     
+URI - Uniform Resource Identifier(Link).
+Ex: https:requres.in/api/users?page=2
+Diff Types of URI are, 
+    Host/Domian - https:requres.in -> It is a basic url.
+    Path Parameter - api/users -> Exact screen path.
+    Query Parameter - ?page=2 -> For Filter purpose.
+
+Section of Request - Params, Authorization, Headers, Body.
+
+If we pass a request then we will get a response. From Response we can get,
+Status code, Response Time, FIle size, Content(JSON, xml), Cookies, Headers, Body.
+
+Payload - Request PayLoad(POST, PUT, DELETE), Response PayLoad(GET).
+
