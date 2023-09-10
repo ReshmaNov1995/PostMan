@@ -5,4 +5,15 @@
 
 Installation:
 Node JS -> Download node.js
-NPM -> Goto Command Prompt, Pass the command as, npm install -g json-server.
+JSON Server -> NPM is a nodejs's package Manager.
+Goto Command Prompt, Pass the command as, npm install -g json-server.
+If SSL is enabled, Then pass the command as -> npm set strict-ssl false, npm install -g npm@10.1.0.
+
+Create API:
+Create a JSON file(change the extension). Inside the file paste the PayLoad. Goto that filepath and open the command prompt.
+Pass the command as, json-server Trail_Postman.json (Trail_Postman.json -> Created File)
+It will give the json file as link.
+
+API:
+An application programming interface (API) is code that enables two software programs to communicate. 
+An API defines how a developer should request services from an operating system (OS) or other application, and expose data within different contexts and across multiple channels.
