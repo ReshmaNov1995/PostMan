@@ -1,0 +1,19 @@
+PostMan workspace is used to maintain the API Testcases.
+This workspace can be cretaed using mail id.
+Workspace can be created as,
+    Private
+    Public
+    Team 
+    Personal.
+Private - Only ourself can use it. By sending invite to Team. Team can also use this.
+Public - All of them can use it.
+Team - Only Team Members can use it.
+Personal - Only ourself can use it.
+
+PostMan API Components:
+    HTTP Request - GET, POST, PUT, DELETE
+    API Documents - 
+    Workspace - 
+    Environment - 
+    Collection - It is a folder used to store the Testcase.
+    
