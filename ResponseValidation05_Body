@@ -2,9 +2,9 @@ Paste this under "Tests"
 Validate under "Test Results"
 Goto Body name.
 
+Type-1:
 # const refers to Constant. variable name is jsonData. Defining Response is gonna json.
 const jsonData=pm.response.json();
-
 pm.test("any name",()=>
             {
 
@@ -12,6 +12,20 @@ pm.test("any name",()=>
 	   pm.expect(jsonData.smenuname).to.be.a('string') # expect(abovevariablename.anykeyname) & its type
 	   pm.expect(jsonData.nmenucode).to.be.an('number')
 	   pm.expect(jsonData.lstforms).to.be.an('array')
+
+
+
+
+             }
+
+)
+
+Type-2:
+pm.test("any name",()=>
+            {
+
+       pm.expect(jsonData.lstforms).to.include('java')# validate single value in array
+	pm.expect(jsonData.lstforms).to.have.members(['java','xyz'])
 
 
 
