@@ -1,0 +1,13 @@
+Paste this under "Tests"
+Validate under "Test Results"
+Time is in right down.
+
+Response Time Verification: 
+pm.test("test name",function()
+    {
+ 
+      pm.expect(pm.response.responseTime).to.be.below(200);
+ 
+    }
+
+)
