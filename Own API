@@ -1,0 +1,8 @@
+3 Things are required to create a own API,
+    Node JS
+    NPM(Node Package Manager)
+    JSON-Server
+
+Installation:
+Node JS -> Download node.js
+NPM -> Goto Command Prompt, Pass the command as, npm install -g json-server.
