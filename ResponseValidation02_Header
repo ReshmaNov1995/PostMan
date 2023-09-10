@@ -1,0 +1,23 @@
+Paste this under "Tests"
+Validate under "Test Results"
+Goto Header Tab and take Header Name
+
+Header name Verification:
+pm.test("test name",function()
+    {
+ 
+      pm.response.to.have.header("Content-Type"); # Content-Type -> Header Name
+ 
+    }
+
+)
+
+Header value Verification:
+pm.test("test name",function()
+    {
+ 
+      pm.expect(pm.response.headers.get('Content-Type')).to.eql('text/html'); # text/html -> Header Value
+ 
+    }
+
+)
