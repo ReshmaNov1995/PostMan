@@ -1,0 +1,22 @@
+Can be acheived using PM library. Using PM Library via Javascript we will achieve.
+Syx 1:
+# test is a method in pm library. 
+pm.test("test name",function()
+ {
+ 
+ assertion 
+ 
+ }
+)
+
+Syx 2:
+pm.test("test name",()=>
+ {
+ 
+ assertion
+ 
+ }
+)
+Under Test-> Syntax has to given.
+
+        
