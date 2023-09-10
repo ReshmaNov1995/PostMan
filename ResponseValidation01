@@ -1,0 +1,33 @@
+Paste this under "Tests"
+Validate under "Test Results"
+
+Status code verification:
+pm.test("test name",function()
+    {
+ 
+      pm.response.to.have.status(200);
+ 
+    }
+)
+
+Multiple Status code verification. If anyone status code is pass then it's pass:
+pm.test("test name",function()
+    {
+ 
+      pm.expect(pm.response.code).to.be.oneOf([201,202]);
+ 
+    }
+
+)
+
+Status code's Message verification:
+pm.test("test name",function()
+    {
+ 
+      pm.response.to.have.status("OK");
+ 
+    }
+
+)
+
+For CREATE(POST) request. Status code is 201 & status message is Created.
