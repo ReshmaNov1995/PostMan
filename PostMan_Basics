@@ -11,3 +11,5 @@ What are the protocols in API?
   
 What are the methods of HTTP?
   GET, POST, PUT, DELETE
+
+JSON is always key and value pair
